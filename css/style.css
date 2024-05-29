@@ -135,9 +135,11 @@
 .quactions-answer .row .col-md-4 .card h2{
   font-size: 18px;
   margin-top: 10px;
+padding: 5px 10px;
 }
 .quactions-answer .row .col-md-4 .card p{
   font-size: 14px;
+  padding: 5px 10px;
 }
 .quactions-answer .row .col-md-4 .card{
   transition: 0.5s ease-in-out;
@@ -204,7 +206,8 @@ footer .row .col-md-10 a svg{
   }
 }
 
-@media(max-width:375px){
+
+@media(max-width:736px){
   .social-header .container .row {
     display: flex;
     align-items: center;
@@ -247,6 +250,10 @@ footer .row .col-md-10 a svg{
   }
   .quactions-answer .row .col-md-4{
     margin-bottom: 15px;
+  }
+  footer .row .col-md-10{
+    justify-content: center;
+    padding: 20px;
   }
 
 }
