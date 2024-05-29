@@ -2,6 +2,9 @@
   font-family: "Cairo", sans-serif;
 }
 
+.social-header .container .row .contact-us-btn{
+  text-align: end;
+}
 .social-header .container .row .contact-us-btn a {
   padding: 10px 20px;
   text-decoration: none;
@@ -14,7 +17,7 @@
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
-  text-align: end;
+  
 }
 .carousel-inner .carousel-item img {
   width: 100%;
@@ -154,6 +157,12 @@ footer{
   border-radius: 15px;
 }
 
+
+#carouselExampleAutoplaying2 .carousel-inner .carousel-item div {
+  width: 50%;
+  margin: auto;
+}
+
 #loader {
   position: fixed;
   left: 0;
@@ -182,9 +191,42 @@ footer{
 }
 
 @media(max-width:375px){
-  .social-header{
+  .social-header .container .row {
     display: flex;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row !important;
   }
+  .social-header .container .row .col-md-6{
+    width: 50%;
+  }
+  .carousel-inner .carousel-item img {
+    height: 120px;
+  }
+  .content-desc .row .col-md-4 {
+      margin-bottom: 30px;
+  }
+  .contact-us-form{
+    padding: 20px;
+  }
+  .contact-us-form .contact-us-contant{
+    padding: 20px !important;
+  }
+  .carousel-inner .carousel-item div div p{
+    text-align: center;
+  }.contact-us-contant .submit button{
+    width: 100%;
+  }
+  .carousel-inner .carousel-item div img{
+    margin: auto;
+  }
+  #carouselExampleAutoplaying2 .carousel-inner .carousel-item div{
+    width: 100%;
+    text-align: center;
+  }
+  .quastion{
+    padding: 20px;
+  }.quastion .row .col-md-12 h2{
+    font-size: 18px;
+  }
+
 }
