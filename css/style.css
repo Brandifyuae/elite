@@ -14,6 +14,7 @@
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
+  text-align: end;
 }
 .carousel-inner .carousel-item img {
   width: 100%;
