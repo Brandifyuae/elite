@@ -134,6 +134,7 @@
 }
 .quactions-answer .row .col-md-4 .card h2{
   font-size: 18px;
+  margin-top: 10px;
 }
 .quactions-answer .row .col-md-4 .card p{
   font-size: 14px;
@@ -146,10 +147,11 @@
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 footer{
-  padding: 50px;
+  padding: 10px;
   text-align: center;
-  background-color: #0f5ba3;
   color: #fff;
+  background: rgb(0,82,158);
+background: linear-gradient(90deg, rgba(0,82,158,1) 0%, rgba(10,88,161,1) 100%, rgba(0,212,255,1) 100%);
 }
 
 .all-photos  .row .col-md-12 iframe,
@@ -227,6 +229,12 @@ footer{
     padding: 20px;
   }.quastion .row .col-md-12 h2{
     font-size: 18px;
+  }
+  .reports .row .col-md-4{
+    margin-bottom: 15px;
+  }
+  .quactions-answer .row .col-md-4{
+    margin-bottom: 15px;
   }
 
 }
